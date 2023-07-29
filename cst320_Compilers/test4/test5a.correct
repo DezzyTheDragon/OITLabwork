@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test5a"/>
+  <block>
+    <decls>
+      <var_decl>
+        <type name="char" size="1" isFloat="0"/>
+        <sym id="7" name="aaa"/>
+      </var_decl>
+      <var_decl>
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="8" name="bbb"/>
+      </var_decl>
+      <var_decl>
+        <type name="real" size="4" isFloat="1"/>
+        <sym id="9" name="ccc"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <if>
+        <varref>
+          <sym id="7" name="aaa"/>
+        </varref>
+        <assign>
+          <varref>
+            <sym id="7" name="aaa"/>
+          </varref>
+          <INTEGER value="1"/>
+        </assign>
+      </if>
+      <if>
+        <expr>
+          <varref>
+            <sym id="8" name="bbb"/>
+          </varref>
+          <op value="+"/>
+          <INTEGER value="5"/>
+        </expr>
+        <block>
+          <stmts>
+            <assign>
+              <varref>
+                <sym id="8" name="bbb"/>
+              </varref>
+              <INTEGER value="2"/>
+            </assign>
+            <assign>
+              <varref>
+                <sym id="9" name="ccc"/>
+              </varref>
+              <REAL value="5.000000"/>
+            </assign>
+          </stmts>
+        </block>
+      </if>
+      <if>
+        <varref>
+          <sym id="9" name="ccc"/>
+        </varref>
+        <assign>
+          <varref>
+            <sym id="7" name="aaa"/>
+          </varref>
+          <INTEGER value="32"/>
+        </assign>
+        <assign>
+          <varref>
+            <sym id="7" name="aaa"/>
+          </varref>
+          <INTEGER value="48"/>
+        </assign>
+      </if>
+      <if>
+        <expr>
+          <varref>
+            <sym id="8" name="bbb"/>
+          </varref>
+          <op value="="/>
+          <INTEGER value="12"/>
+        </expr>
+        <block>
+          <stmts>
+            <assign>
+              <varref>
+                <sym id="8" name="bbb"/>
+              </varref>
+              <INTEGER value="2"/>
+            </assign>
+            <assign>
+              <varref>
+                <sym id="9" name="ccc"/>
+              </varref>
+              <REAL value="4.200000"/>
+            </assign>
+          </stmts>
+        </block>
+        <block>
+          <stmts>
+            <assign>
+              <varref>
+                <sym id="8" name="bbb"/>
+              </varref>
+              <INTEGER value="3"/>
+            </assign>
+            <assign>
+              <varref>
+                <sym id="9" name="ccc"/>
+              </varref>
+              <REAL value="4.300000"/>
+            </assign>
+          </stmts>
+        </block>
+      </if>
+    </stmts>
+  </block>
+</program>

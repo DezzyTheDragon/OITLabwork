@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test6b"/>
+  <block>
+    <decls>
+      <var_decl>
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="7" name="aaa"/>
+      </var_decl>
+      <var_decl>
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="8" name="bbb"/>
+      </var_decl>
+      <func>
+        <sym id="9" name="func1"/>
+        <type name="integer" size="4" isFloat="0"/>
+        <block>
+          <decls>
+            <var_decl>
+              <type name="integer" size="4" isFloat="0"/>
+              <sym id="10" name="aaa"/>
+            </var_decl>
+            <var_decl>
+              <type name="integer" size="4" isFloat="0"/>
+              <sym id="11" name="bbb"/>
+            </var_decl>
+            <func>
+              <sym id="12" name="func1a"/>
+              <type name="integer" size="4" isFloat="0"/>
+              <var_decls>
+                <var_decl>
+                  <type name="integer" size="4" isFloat="0"/>
+                  <sym id="13" name="aaa"/>
+                </var_decl>
+                <var_decl>
+                  <type name="integer" size="4" isFloat="0"/>
+                  <sym id="14" name="bbb"/>
+                </var_decl>
+              </var_decls>
+              <block>
+                <stmts>
+                  <WRITE>
+                    <exprList>
+                      <varref>
+                        <sym id="13" name="aaa"/>
+                      </varref>
+                      <varref>
+                        <sym id="14" name="bbb"/>
+                      </varref>
+                    </exprList>
+                  </WRITE>
+                  <assign>
+                    <varref>
+                      <sym id="12" name="func1a"/>
+                    </varref>
+                    <varref>
+                      <sym id="13" name="aaa"/>
+                    </varref>
+                  </assign>
+                </stmts>
+              </block>
+            </func>
+          </decls>
+          <stmts>
+            <assign>
+              <varref>
+                <sym id="10" name="aaa"/>
+              </varref>
+              <funcCall>
+                <sym id="12" name="func1a"/>
+                <exprList>
+                  <varref>
+                    <sym id="10" name="aaa"/>
+                  </varref>
+                  <varref>
+                    <sym id="11" name="bbb"/>
+                  </varref>
+                </exprList>
+              </funcCall>
+            </assign>
+            <assign>
+              <varref>
+                <sym id="9" name="func1"/>
+              </varref>
+              <expr>
+                <varref>
+                  <sym id="10" name="aaa"/>
+                </varref>
+                <op value="+"/>
+                <funcCall>
+                  <sym id="12" name="func1a"/>
+                  <exprList>
+                    <INTEGER value="1"/>
+                    <INTEGER value="5"/>
+                  </exprList>
+                </funcCall>
+              </expr>
+            </assign>
+          </stmts>
+        </block>
+      </func>
+    </decls>
+    <stmts>
+      <assign>
+        <varref>
+          <sym id="7" name="aaa"/>
+        </varref>
+        <varref>
+          <sym id="9" name="func1"/>
+        </varref>
+      </assign>
+      <WRITE>
+        <exprList>
+          <varref>
+            <sym id="7" name="aaa"/>
+          </varref>
+          <varref>
+            <sym id="8" name="bbb"/>
+          </varref>
+        </exprList>
+      </WRITE>
+    </stmts>
+  </block>
+</program>

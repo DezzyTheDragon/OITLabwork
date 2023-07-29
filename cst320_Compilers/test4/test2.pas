@@ -1,0 +1,7 @@
+PROGRAM test1;
+BEGIN
+   WRITE(1);
+   WRITE(2);
+   WRITE(3);
+   WRITE(4,5,6);
+END.

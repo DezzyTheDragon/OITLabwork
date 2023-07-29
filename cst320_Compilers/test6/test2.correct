@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test2"/>
+  <block size="24">
+    <decls>
+      <var_decl size="1" offset="0">
+        <type name="char" size="1" isFloat="0"/>
+        <sym id="7" name="a1"/>
+      </var_decl>
+      <var_decl size="4" offset="4">
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="8" name="b1"/>
+      </var_decl>
+      <var_decl size="4" offset="8">
+        <type name="real" size="4" isFloat="1"/>
+        <sym id="9" name="c1"/>
+      </var_decl>
+      <var_decl size="1" offset="12">
+        <type name="char" size="1" isFloat="0"/>
+        <sym id="10" name="a2"/>
+      </var_decl>
+      <var_decl size="1" offset="13">
+        <type name="char" size="1" isFloat="0"/>
+        <sym id="11" name="a3"/>
+      </var_decl>
+      <var_decl size="4" offset="16">
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="12" name="b2"/>
+      </var_decl>
+      <var_decl size="4" offset="20">
+        <type name="real" size="4" isFloat="1"/>
+        <sym id="13" name="c2"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <WRITE>
+        <exprList>
+          <varref size="1" offset="0">
+            <sym id="7" name="a1"/>
+          </varref>
+          <varref size="4" offset="4">
+            <sym id="8" name="b1"/>
+          </varref>
+          <varref size="4" offset="8">
+            <sym id="9" name="c1"/>
+          </varref>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <varref size="1" offset="12">
+            <sym id="10" name="a2"/>
+          </varref>
+          <varref size="1" offset="13">
+            <sym id="11" name="a3"/>
+          </varref>
+          <varref size="4" offset="16">
+            <sym id="12" name="b2"/>
+          </varref>
+          <varref size="4" offset="20">
+            <sym id="13" name="c2"/>
+          </varref>
+        </exprList>
+      </WRITE>
+    </stmts>
+  </block>
+</program>

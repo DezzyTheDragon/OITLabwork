@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="4" name="test4"/>
+  <block>
+    <decls>
+      <type name="longint" size="8" isFloat="0"/>
+      <type name="double" size="8" isFloat="1"/>
+      <var_decl>
+        <type name="char" size="1" isFloat="0"/>
+        <sym id="7" name="aaa"/>
+      </var_decl>
+      <var_decl>
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="8" name="bbb"/>
+      </var_decl>
+      <var_decl>
+        <type name="real" size="4" isFloat="1"/>
+        <sym id="9" name="ccc"/>
+      </var_decl>
+      <var_decl>
+        <type name="real" size="4" isFloat="1"/>
+        <sym id="10" name="ddd"/>
+      </var_decl>
+      <var_decl>
+        <type name="longint" size="8" isFloat="0"/>
+        <sym id="11" name="eee"/>
+      </var_decl>
+      <var_decl>
+        <type name="double" size="8" isFloat="1"/>
+        <sym id="12" name="fff"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <WRITE>
+        <exprList>
+          <varref>
+            <sym id="7" name="aaa"/>
+          </varref>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <varref>
+            <sym id="8" name="bbb"/>
+          </varref>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <varref>
+            <sym id="9" name="ccc"/>
+          </varref>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <varref>
+            <sym id="9" name="ccc"/>
+          </varref>
+          <varref>
+            <sym id="10" name="ddd"/>
+          </varref>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <varref>
+            <sym id="11" name="eee"/>
+          </varref>
+          <varref>
+            <sym id="12" name="fff"/>
+          </varref>
+        </exprList>
+      </WRITE>
+    </stmts>
+  </block>
+</program>

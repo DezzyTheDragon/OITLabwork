@@ -1,0 +1,3 @@
+ERROR: Cannot assign array1type to integer near line 13
+ERROR: Cannot assign array1type to array2type near line 15
+2 Errors in compile

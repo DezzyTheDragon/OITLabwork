@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test3"/>
+  <block>
+    <stmts>
+      <WRITE>
+        <exprList>
+          <expr>
+            <expr>
+              <REAL value="1.700000"/>
+              <op value="*"/>
+              <INTEGER value="5"/>
+            </expr>
+            <op value="+"/>
+            <expr>
+              <INTEGER value="2"/>
+              <op value="*"/>
+              <REAL value="3.500000"/>
+            </expr>
+          </expr>
+        </exprList>
+      </WRITE>
+    </stmts>
+  </block>
+</program>

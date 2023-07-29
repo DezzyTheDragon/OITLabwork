@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test5b"/>
+  <block>
+    <decls>
+      <var_decl>
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="7" name="count"/>
+      </var_decl>
+      <var_decl>
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="8" name="value"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <assign>
+        <varref>
+          <sym id="7" name="count"/>
+        </varref>
+        <INTEGER value="0"/>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="8" name="value"/>
+        </varref>
+        <INTEGER value="0"/>
+      </assign>
+      <while>
+        <expr>
+          <varref>
+            <sym id="7" name="count"/>
+          </varref>
+          <op value="LT"/>
+          <INTEGER value="10"/>
+        </expr>
+        <block>
+          <stmts>
+            <assign>
+              <varref>
+                <sym id="7" name="count"/>
+              </varref>
+              <expr>
+                <varref>
+                  <sym id="7" name="count"/>
+                </varref>
+                <op value="+"/>
+                <INTEGER value="1"/>
+              </expr>
+            </assign>
+            <assign>
+              <varref>
+                <sym id="8" name="value"/>
+              </varref>
+              <expr>
+                <varref>
+                  <sym id="8" name="value"/>
+                </varref>
+                <op value="+"/>
+                <varref>
+                  <sym id="7" name="count"/>
+                </varref>
+              </expr>
+            </assign>
+          </stmts>
+        </block>
+      </while>
+    </stmts>
+  </block>
+</program>

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test6"/>
+  <block size="32">
+    <decls>
+      <var_decl size="4" offset="0">
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="7" name="aa"/>
+      </var_decl>
+      <var_decl size="4" offset="4">
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="8" name="bb"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <assign>
+        <varref size="4" offset="0">
+          <sym id="7" name="aa"/>
+        </varref>
+        <INTEGER value="0"/>
+      </assign>
+      <assign>
+        <varref size="4" offset="4">
+          <sym id="8" name="bb"/>
+        </varref>
+        <INTEGER value="4"/>
+      </assign>
+      <block size="8">
+        <decls>
+          <var_decl size="4" offset="8">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="9" name="aa"/>
+          </var_decl>
+          <var_decl size="4" offset="12">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="10" name="bb"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <assign>
+            <varref size="4" offset="8">
+              <sym id="9" name="aa"/>
+            </varref>
+            <INTEGER value="8"/>
+          </assign>
+          <assign>
+            <varref size="4" offset="12">
+              <sym id="10" name="bb"/>
+            </varref>
+            <INTEGER value="12"/>
+          </assign>
+        </stmts>
+      </block>
+      <block size="24">
+        <decls>
+          <var_decl size="4" offset="8">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="11" name="aa"/>
+          </var_decl>
+          <var_decl size="4" offset="12">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="12" name="bb"/>
+          </var_decl>
+          <var_decl size="4" offset="16">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="13" name="cc"/>
+          </var_decl>
+          <var_decl size="4" offset="20">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="14" name="dd"/>
+          </var_decl>
+          <var_decl size="4" offset="24">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="15" name="ee"/>
+          </var_decl>
+          <var_decl size="4" offset="28">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="16" name="ff"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <assign>
+            <varref size="4" offset="8">
+              <sym id="11" name="aa"/>
+            </varref>
+            <INTEGER value="8"/>
+          </assign>
+          <assign>
+            <varref size="4" offset="12">
+              <sym id="12" name="bb"/>
+            </varref>
+            <INTEGER value="12"/>
+          </assign>
+          <assign>
+            <varref size="4" offset="24">
+              <sym id="15" name="ee"/>
+            </varref>
+            <INTEGER value="24"/>
+          </assign>
+          <assign>
+            <varref size="4" offset="28">
+              <sym id="16" name="ff"/>
+            </varref>
+            <INTEGER value="28"/>
+          </assign>
+        </stmts>
+      </block>
+      <block size="8">
+        <decls>
+          <var_decl size="4" offset="8">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="17" name="aa"/>
+          </var_decl>
+          <var_decl size="4" offset="12">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="18" name="bb"/>
+          </var_decl>
+        </decls>
+        <stmts>
+          <assign>
+            <varref size="4" offset="8">
+              <sym id="17" name="aa"/>
+            </varref>
+            <INTEGER value="8"/>
+          </assign>
+          <assign>
+            <varref size="4" offset="12">
+              <sym id="18" name="bb"/>
+            </varref>
+            <INTEGER value="12"/>
+          </assign>
+        </stmts>
+      </block>
+    </stmts>
+  </block>
+</program>

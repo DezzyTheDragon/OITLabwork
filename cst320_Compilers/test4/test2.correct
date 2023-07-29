@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test1"/>
+  <block>
+    <stmts>
+      <WRITE>
+        <exprList>
+          <INTEGER value="1"/>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <INTEGER value="2"/>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <INTEGER value="3"/>
+        </exprList>
+      </WRITE>
+      <WRITE>
+        <exprList>
+          <INTEGER value="4"/>
+          <INTEGER value="5"/>
+          <INTEGER value="6"/>
+        </exprList>
+      </WRITE>
+    </stmts>
+  </block>
+</program>

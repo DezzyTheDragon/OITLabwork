@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test9"/>
+  <block>
+    <decls>
+      <const_decl>
+        <sym id="7" name="const1"/>
+        <INTEGER value="5"/>
+      </const_decl>
+      <const_decl>
+        <sym id="8" name="const2"/>
+        <unaryExpr>
+          <op value="-"/>
+          <INTEGER value="1"/>
+        </unaryExpr>
+      </const_decl>
+    </decls>
+    <stmts>
+      <WRITE>
+        <exprList>
+          <varref>
+            <sym id="7" name="const1"/>
+          </varref>
+          <varref>
+            <sym id="8" name="const2"/>
+          </varref>
+        </exprList>
+      </WRITE>
+    </stmts>
+  </block>
+</program>

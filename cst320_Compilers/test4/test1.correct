@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test1"/>
+  <block>
+    <stmts>
+      <NIL/>
+    </stmts>
+  </block>
+</program>

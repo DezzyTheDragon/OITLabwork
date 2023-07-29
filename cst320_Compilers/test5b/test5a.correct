@@ -1,0 +1,12 @@
+ERROR: Cannot assign integer to char near line 12
+ERROR: Cannot assign real to char near line 13
+ERROR: Cannot assign real to integer near line 17
+ERROR: Cannot assign real to integer near line 18
+ERROR: Cannot assign longint to char near line 29
+ERROR: Cannot assign double to char near line 30
+ERROR: Cannot assign longint to integer near line 31
+ERROR: Cannot assign double to integer near line 32
+ERROR: Cannot assign double to real near line 34
+ERROR: Cannot assign real to longint near line 37
+ERROR: Cannot assign double to longint near line 39
+11 Errors in compile

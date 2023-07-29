@@ -1,0 +1,362 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test4b"/>
+  <block>
+    <decls>
+      <var_decl>
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="7" name="val"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="+"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="-"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="*"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="/"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="LT"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="="/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="GT"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="GE"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="LE"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="NE"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="OR"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="DIV"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="MOD"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <INTEGER value="1"/>
+          <op value="AND"/>
+          <INTEGER value="2"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <unaryExpr>
+          <op value="NOT"/>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="LT"/>
+            <INTEGER value="2"/>
+          </expr>
+        </unaryExpr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <unaryExpr>
+          <op value="-"/>
+          <INTEGER value="1"/>
+        </unaryExpr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="="/>
+            <INTEGER value="2"/>
+          </expr>
+          <op value="="/>
+          <INTEGER value="3"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <expr>
+              <expr>
+                <expr>
+                  <INTEGER value="1"/>
+                  <op value="+"/>
+                  <INTEGER value="2"/>
+                </expr>
+                <op value="+"/>
+                <INTEGER value="3"/>
+              </expr>
+              <op value="-"/>
+              <INTEGER value="4"/>
+            </expr>
+            <op value="-"/>
+            <INTEGER value="5"/>
+          </expr>
+          <op value="+"/>
+          <INTEGER value="6"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <expr>
+              <expr>
+                <expr>
+                  <expr>
+                    <expr>
+                      <expr>
+                        <INTEGER value="1"/>
+                        <op value="*"/>
+                        <INTEGER value="2"/>
+                      </expr>
+                      <op value="*"/>
+                      <INTEGER value="3"/>
+                    </expr>
+                    <op value="/"/>
+                    <INTEGER value="4"/>
+                  </expr>
+                  <op value="/"/>
+                  <INTEGER value="5"/>
+                </expr>
+                <op value="MOD"/>
+                <INTEGER value="6"/>
+              </expr>
+              <op value="MOD"/>
+              <INTEGER value="7"/>
+            </expr>
+            <op value="/"/>
+            <INTEGER value="8"/>
+          </expr>
+          <op value="*"/>
+          <INTEGER value="9"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="="/>
+            <expr>
+              <INTEGER value="2"/>
+              <op value="+"/>
+              <INTEGER value="3"/>
+            </expr>
+          </expr>
+          <op value="="/>
+          <INTEGER value="4"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="="/>
+            <expr>
+              <INTEGER value="2"/>
+              <op value="-"/>
+              <INTEGER value="3"/>
+            </expr>
+          </expr>
+          <op value="="/>
+          <INTEGER value="4"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="+"/>
+            <expr>
+              <INTEGER value="2"/>
+              <op value="*"/>
+              <INTEGER value="3"/>
+            </expr>
+          </expr>
+          <op value="+"/>
+          <INTEGER value="4"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="-"/>
+            <expr>
+              <INTEGER value="2"/>
+              <op value="*"/>
+              <INTEGER value="3"/>
+            </expr>
+          </expr>
+          <op value="-"/>
+          <INTEGER value="4"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="+"/>
+            <expr>
+              <INTEGER value="2"/>
+              <op value="/"/>
+              <INTEGER value="3"/>
+            </expr>
+          </expr>
+          <op value="+"/>
+          <INTEGER value="4"/>
+        </expr>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="7" name="val"/>
+        </varref>
+        <expr>
+          <expr>
+            <INTEGER value="1"/>
+            <op value="-"/>
+            <expr>
+              <INTEGER value="2"/>
+              <op value="/"/>
+              <INTEGER value="3"/>
+            </expr>
+          </expr>
+          <op value="-"/>
+          <INTEGER value="4"/>
+        </expr>
+      </assign>
+    </stmts>
+  </block>
+</program>

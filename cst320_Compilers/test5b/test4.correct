@@ -1,0 +1,4 @@
+ERROR: Variable dd is not defined near line 14
+ERROR: Variable foo is not defined near line 16
+ERROR: Variable foo is not defined near line 17
+3 Errors in compile

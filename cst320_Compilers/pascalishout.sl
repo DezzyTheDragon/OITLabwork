@@ -1,0 +1,21 @@
+.function add
+add:
+ADJSP  4 
+PUSHVAR  -12 
+PUSHVAR  -16 
+PLUS
+POPVAR  0 
+PUSHVAR 0
+RETURNV
+.function main
+main:
+ADJSP  4 
+PUSH  4 
+PUSH  5 
+CALL @add
+POPARGS  8 
+CALL @print
+POP
+POP
+PUSH 0
+RETURNV

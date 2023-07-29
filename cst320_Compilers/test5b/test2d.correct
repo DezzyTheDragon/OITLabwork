@@ -1,0 +1,3 @@
+ERROR: func1 previously declared with different return type on line 8
+ERROR: func3 redeclared with different number of parameters on line 22
+2 Errors in compile

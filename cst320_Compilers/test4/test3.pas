@@ -1,0 +1,4 @@
+PROGRAM test3;
+BEGIN
+   WRITE(1.7*5+2*3.5);
+END.

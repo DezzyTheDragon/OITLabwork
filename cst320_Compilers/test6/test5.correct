@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test5"/>
+  <block size="52">
+    <decls>
+      <type name="short" size="2" isFloat="0"/>
+      <type name="long" size="8" isFloat="0"/>
+      <type name="double" size="8" isFloat="1"/>
+      <type name="prime" size="13" isFloat="0"/>
+      <var_decl size="1" offset="0">
+        <type name="char" size="1" isFloat="0"/>
+        <sym id="11" name="aa"/>
+      </var_decl>
+      <var_decl size="2" offset="4">
+        <type name="short" size="2" isFloat="0"/>
+        <sym id="12" name="bb"/>
+      </var_decl>
+      <var_decl size="4" offset="8">
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="13" name="cc"/>
+      </var_decl>
+      <var_decl size="8" offset="12">
+        <type name="long" size="8" isFloat="0"/>
+        <sym id="14" name="dd"/>
+      </var_decl>
+      <var_decl size="4" offset="20">
+        <type name="real" size="4" isFloat="1"/>
+        <sym id="15" name="ee"/>
+      </var_decl>
+      <var_decl size="8" offset="24">
+        <type name="double" size="8" isFloat="1"/>
+        <sym id="16" name="ff"/>
+      </var_decl>
+      <var_decl size="13" offset="32">
+        <type name="prime" size="13" isFloat="0"/>
+        <sym id="17" name="gg"/>
+      </var_decl>
+      <var_decl size="4" offset="48">
+        <type name="integer" size="4" isFloat="0"/>
+        <sym id="18" name="hh"/>
+      </var_decl>
+      <proc>
+        <sym id="19" name="foo"/>
+        <var_decls size="40">
+          <var_decl size="2" offset="-12">
+            <type name="short" size="2" isFloat="0"/>
+            <sym id="20" name="aa"/>
+          </var_decl>
+          <var_decl size="8" offset="-16">
+            <type name="long" size="8" isFloat="0"/>
+            <sym id="21" name="bb"/>
+          </var_decl>
+          <var_decl size="8" offset="-24">
+            <type name="double" size="8" isFloat="1"/>
+            <sym id="22" name="cc"/>
+          </var_decl>
+          <var_decl size="13" offset="-32">
+            <type name="prime" size="13" isFloat="0"/>
+            <sym id="23" name="dd"/>
+          </var_decl>
+          <var_decl size="4" offset="-48">
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="24" name="ee"/>
+          </var_decl>
+        </var_decls>
+        <block>
+          <stmts>
+            <assign>
+              <varref size="2" offset="-12">
+                <sym id="20" name="aa"/>
+              </varref>
+              <INTEGER value="0"/>
+            </assign>
+            <assign>
+              <varref size="8" offset="-16">
+                <sym id="21" name="bb"/>
+              </varref>
+              <INTEGER value="4"/>
+            </assign>
+            <assign>
+              <varref size="8" offset="-24">
+                <sym id="22" name="cc"/>
+              </varref>
+              <INTEGER value="12"/>
+            </assign>
+            <assign>
+              <varref size="13" offset="-32">
+                <sym id="23" name="dd"/>
+              </varref>
+              <INTEGER value="20"/>
+            </assign>
+            <assign>
+              <varref size="4" offset="-48">
+                <sym id="24" name="ee"/>
+              </varref>
+              <INTEGER value="36"/>
+            </assign>
+          </stmts>
+        </block>
+      </proc>
+    </decls>
+    <stmts>
+      <assign>
+        <varref size="1" offset="0">
+          <sym id="11" name="aa"/>
+        </varref>
+        <INTEGER value="0"/>
+      </assign>
+      <assign>
+        <varref size="2" offset="4">
+          <sym id="12" name="bb"/>
+        </varref>
+        <INTEGER value="4"/>
+      </assign>
+      <assign>
+        <varref size="4" offset="8">
+          <sym id="13" name="cc"/>
+        </varref>
+        <INTEGER value="8"/>
+      </assign>
+      <assign>
+        <varref size="8" offset="12">
+          <sym id="14" name="dd"/>
+        </varref>
+        <INTEGER value="12"/>
+      </assign>
+      <assign>
+        <varref size="4" offset="20">
+          <sym id="15" name="ee"/>
+        </varref>
+        <INTEGER value="20"/>
+      </assign>
+      <assign>
+        <varref size="8" offset="24">
+          <sym id="16" name="ff"/>
+        </varref>
+        <INTEGER value="24"/>
+      </assign>
+      <assign>
+        <varref size="13" offset="32">
+          <sym id="17" name="gg"/>
+        </varref>
+        <INTEGER value="32"/>
+      </assign>
+      <assign>
+        <varref size="4" offset="48">
+          <sym id="18" name="hh"/>
+        </varref>
+        <INTEGER value="48"/>
+      </assign>
+    </stmts>
+  </block>
+</program>

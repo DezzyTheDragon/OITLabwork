@@ -1,0 +1,4 @@
+ERROR: func1 is not fully defined near line 16
+ERROR: func3 is not declared near line 17
+ERROR: notfunc is not a function near line 18
+3 Errors in compile

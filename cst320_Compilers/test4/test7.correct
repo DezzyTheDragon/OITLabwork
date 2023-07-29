@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<program>
+  <sym id="6" name="test7"/>
+  <block>
+    <decls>
+      <record>
+        <sym id="7" name="record1"/>
+        <var_decls>
+          <var_decl>
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="8" name="field1"/>
+          </var_decl>
+          <var_decl>
+            <type name="integer" size="4" isFloat="0"/>
+            <sym id="9" name="field2"/>
+          </var_decl>
+          <var_decl>
+            <type name="real" size="4" isFloat="1"/>
+            <sym id="10" name="field3"/>
+          </var_decl>
+        </var_decls>
+      </record>
+      <var_decl>
+        <record>
+          <sym id="7" name="record1"/>
+          <var_decls>
+            <var_decl>
+              <type name="integer" size="4" isFloat="0"/>
+              <sym id="8" name="field1"/>
+            </var_decl>
+            <var_decl>
+              <type name="integer" size="4" isFloat="0"/>
+              <sym id="9" name="field2"/>
+            </var_decl>
+            <var_decl>
+              <type name="real" size="4" isFloat="1"/>
+              <sym id="10" name="field3"/>
+            </var_decl>
+          </var_decls>
+        </record>
+        <sym id="11" name="var1"/>
+      </var_decl>
+    </decls>
+    <stmts>
+      <assign>
+        <varref>
+          <sym id="11" name="var1"/>
+          <sym id="12" name="field1"/>
+        </varref>
+        <INTEGER value="5"/>
+      </assign>
+      <assign>
+        <varref>
+          <sym id="11" name="var1"/>
+          <sym id="13" name="field2"/>
+        </varref>
+        <INTEGER value="3"/>
+      </assign>
+    </stmts>
+  </block>
+</program>
